@@ -12,8 +12,6 @@ def webcamsketch(image):
 # start web cam
 cap = cv2.VideoCapture(0)
 
-cap = cv2.VideoCapture(0)
-
 while True:
     ret, frame = cap.read()
     cv2.imshow('Our Live Sketcher', webcamsketch(frame))
